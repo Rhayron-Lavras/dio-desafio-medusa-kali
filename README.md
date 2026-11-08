@@ -53,7 +53,7 @@ A comunicação foi estabelecida com sucesso entre as duas máquinas.
 
 ### Análise
 
-O teste de conectividade confirmou que as máquinas Kali Linux e Metasploitable 2 estão na mesma rede Host-Only configurada no VirtualBox, permitindo a realização dos testes de segurança em ambiente controlado.
+O teste de conectividade foi bem-sucedido, confirmando a comunicação entre as máquinas Kali Linux e Metasploitable 2 através da rede Host-Only configurada no VirtualBox. Essa etapa valida a conectividade necessária para a execução dos testes de auditoria e segurança previstos no laboratório.
 
 ---
 
@@ -85,5 +85,9 @@ Serviços encontrados:
 
 ### Análise
 
-O escaneamento identificou diversos serviços ativos e potencialmente vulneráveis. Os serviços FTP, SSH, Telnet, HTTP, SMB e bancos de dados serão avaliados para compreender riscos relacionados a credenciais fracas e configurações inseguras.
+O escaneamento realizado com o Nmap identificou diversos serviços ativos na máquina Metasploitable 2. Entre eles destacam-se FTP, SSH, Telnet, HTTP, SMB e bancos de dados, representando múltiplas superfícies de ataque para estudo em ambiente controlado.
+
+---
+
+## Próxima Etapa: Teste de Força Bruta com Medusa
 
