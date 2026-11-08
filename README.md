@@ -32,3 +32,48 @@ README.md
 ## Status
 
 Laboratório em construção.
+
+## Teste de Conectividade
+
+Foi realizado um teste de conectividade entre o Kali Linux e o Metasploitable 2.
+
+Comando utilizado:
+
+```bash
+ping 192.168.56.103
+```
+
+Resultado:
+
+A comunicação foi estabelecida com sucesso entre as duas máquinas.
+
+### Evidência
+
+![Ping](images/01-ping-kali-metasploitable.png)
+
+---
+
+## Enumeração de Serviços
+
+Foi realizado um escaneamento de serviços utilizando o Nmap.
+
+Comando utilizado:
+
+```bash
+nmap -sV 192.168.56.103
+```
+
+Serviços encontrados:
+
+- FTP
+- SSH
+- Telnet
+- HTTP
+- SMB
+- MySQL
+- PostgreSQL
+- Apache Tomcat
+
+### Evidência
+
+![Nmap](images/02-nmap-scan.png)
