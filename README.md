@@ -116,7 +116,7 @@ A autenticação foi realizada com sucesso no serviço FTP.
 
 ![Login FTP](images/04-ftp-login-sucesso.png)
 
-### Análise
+## Análise
 
 O serviço FTP permitiu autenticação utilizando credenciais simples e previsíveis. Esse comportamento representa um risco de segurança, pois aumenta a probabilidade de sucesso de ataques de força bruta e de adivinhação de senhas.
 ---
