@@ -147,3 +147,27 @@ A ferramenta Medusa identificou com sucesso credenciais válidas para acesso ao 
 
 O teste demonstrou como ferramentas automatizadas podem identificar credenciais fracas em serviços expostos à rede. A utilização de senhas previsíveis aumenta significativamente o risco de comprometimento de contas por meio de ataques de força bruta.
 
+---
+
+## Recomendações de Mitigação
+
+As seguintes medidas podem ser adotadas para reduzir os riscos associados a ataques de força bruta:
+
+- Utilização de senhas fortes e complexas.
+- Implementação de autenticação multifator (MFA).
+- Bloqueio temporário após sucessivas tentativas de autenticação falhas.
+- Monitoramento contínuo de logs de acesso.
+- Limitação de tentativas de login por endereço IP.
+- Desativação de serviços desnecessários.
+- Atualização frequente de sistemas e aplicações.
+
+
+---
+
+## Conclusão
+
+Durante este laboratório foi possível compreender o funcionamento de ataques de força bruta em um ambiente controlado utilizando Kali Linux, Metasploitable 2, Nmap e Medusa.
+
+Foram realizadas etapas de configuração do laboratório, validação de conectividade, enumeração de serviços, autenticação manual via FTP e utilização da ferramenta Medusa para identificação de credenciais válidas.
+
+O projeto permitiu reforçar a importância da utilização de boas práticas de segurança, como políticas de senhas robustas, monitoramento de acessos e implementação de controles de autenticação.
