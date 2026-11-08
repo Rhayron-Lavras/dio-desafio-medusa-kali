@@ -51,7 +51,7 @@ A comunicação foi estabelecida com sucesso entre as duas máquinas.
 
 ![Ping](images/images01-ping-kali-metasploitable.png)
 
-### Análise
+**Análise:**
 
 O teste de conectividade foi bem-sucedido, confirmando a comunicação entre as máquinas Kali Linux e Metasploitable 2 através da rede Host-Only configurada no VirtualBox. Essa etapa valida a conectividade necessária para a execução dos testes de auditoria e segurança previstos no laboratório.
 
@@ -83,7 +83,7 @@ Serviços encontrados:
 
 ![Nmap](images/04-ftp-login-sucesso.png)
 
-### Análise
+**Análise:**
 
 O escaneamento realizado com o Nmap identificou diversos serviços ativos na máquina Metasploitable 2. Entre eles destacam-se FTP, SSH, Telnet, HTTP, SMB e bancos de dados, representando múltiplas superfícies de ataque para estudo em ambiente controlado.
 
@@ -116,12 +116,12 @@ A autenticação foi realizada com sucesso no serviço FTP.
 
 ![Login FTP](images/04-ftp-login-sucesso.png)
 
-## Análise
+**Análise:**
 
-O serviço FTP permitiu autenticação utilizando credenciais simples e previsíveis. Esse comportamento representa um risco de segurança, pois aumenta a probabilidade de sucesso de ataques de força bruta e de adivinhação de senhas.
+O serviço FTP permitiu autenticação utilizando credenciais simples e previsíveis. Esse comportamento representa um risco de segurança, pois aumenta a probabilidade de sucesso de ataques de força bruta e adivinhação de senhas.
+
 ---
 
----
 
-## Próxima Etapa: Teste de Força Bruta com Medusa
+## Teste de Força Bruta com Medusa
 
