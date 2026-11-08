@@ -166,8 +166,10 @@ As seguintes medidas podem ser adotadas para reduzir os riscos associados a ataq
 
 ## Conclusão
 
-Durante este laboratório foi possível compreender o funcionamento de ataques de força bruta em um ambiente controlado utilizando Kali Linux, Metasploitable 2, Nmap e Medusa.
+A realização deste laboratório foi uma experiência muito importante para compreender, na prática, como ocorrem ataques de força bruta e quais riscos credenciais fracas podem representar para um ambiente.
 
-Foram realizadas etapas de configuração do laboratório, validação de conectividade, enumeração de serviços, autenticação manual via FTP e utilização da ferramenta Medusa para identificação de credenciais válidas.
+Durante o desenvolvimento do projeto, foi possível montar um laboratório utilizando Kali Linux e Metasploitable 2, realizar testes de conectividade, identificar serviços ativos com o Nmap, validar acessos ao serviço FTP e utilizar a ferramenta Medusa para automatizar tentativas de autenticação.
 
-O projeto permitiu reforçar a importância da utilização de boas práticas de segurança, como políticas de senhas robustas, monitoramento de acessos e implementação de controles de autenticação.
+Além do aprendizado técnico, o projeto reforçou a importância de boas práticas de segurança, como o uso de senhas fortes, monitoramento de acessos e implementação de mecanismos de proteção contra tentativas de login indevidas.
+
+Este desafio permitiu aplicar conhecimentos vistos ao longo do curso em um ambiente controlado e seguro, tornando o aprendizado mais prático e facilitando a compreensão dos conceitos relacionados à segurança da informação.
