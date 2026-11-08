@@ -123,5 +123,27 @@ O serviço FTP permitiu autenticação utilizando credenciais simples e previsí
 ---
 
 
+---
+
 ## Teste de Força Bruta com Medusa
+
+Foi utilizada a ferramenta Medusa para realizar um teste de autenticação automatizada contra o serviço FTP identificado durante a fase de enumeração.
+
+### Comando utilizado
+
+```bash
+medusa -h 192.168.56.103 -u user -p user -M ftp
+```
+
+### Resultado
+
+A ferramenta Medusa identificou com sucesso credenciais válidas para acesso ao serviço FTP.
+
+### Evidência
+
+![Medusa](images/05-medusa-ftp-success)
+
+**Análise**
+
+O teste demonstrou como ferramentas automatizadas podem identificar credenciais fracas em serviços expostos à rede. A utilização de senhas previsíveis aumenta significativamente o risco de comprometimento de contas por meio de ataques de força bruta.
 
