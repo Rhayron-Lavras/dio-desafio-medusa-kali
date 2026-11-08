@@ -76,4 +76,4 @@ Serviços encontrados:
 
 ### Evidência
 
-![Nmap](images02-nmap-scan.png)
+![Nmap](images/images02-nmap-scan.png)
