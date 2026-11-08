@@ -57,9 +57,8 @@ O teste de conectividade confirmou que as máquinas Kali Linux e Metasploitable 
 
 ---
 
-<br>
-
 ## Enumeração de Serviços
+
 
 Foi realizado um escaneamento de serviços utilizando o Nmap.
 
