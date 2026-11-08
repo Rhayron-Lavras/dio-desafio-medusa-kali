@@ -49,7 +49,7 @@ A comunicação foi estabelecida com sucesso entre as duas máquinas.
 
 ### Evidência
 
-![Ping](images/01-ping-kali-metasploitable.png)
+![Ping](images/images01-ping-kali-metasploitable.png)
 
 ---
 
@@ -76,4 +76,4 @@ Serviços encontrados:
 
 ### Evidência
 
-![Nmap](images/02-nmap-scan.png)
+![Nmap](images02-nmap-scan.png)
