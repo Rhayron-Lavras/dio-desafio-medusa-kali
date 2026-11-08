@@ -81,11 +81,45 @@ Serviços encontrados:
 
 ### Evidência
 
-![Nmap](images/images02-nmap-scan.png)
+![Nmap](images/04-ftp-login-sucesso.png)
 
 ### Análise
 
 O escaneamento realizado com o Nmap identificou diversos serviços ativos na máquina Metasploitable 2. Entre eles destacam-se FTP, SSH, Telnet, HTTP, SMB e bancos de dados, representando múltiplas superfícies de ataque para estudo em ambiente controlado.
+
+---
+
+---
+
+## Validação Manual do Serviço FTP
+
+Foi realizada uma conexão manual ao serviço FTP identificado durante a fase de enumeração com o objetivo de validar o acesso antes da execução de testes automatizados.
+
+### Comando utilizado
+
+```bash
+ftp 192.168.56.103
+```
+
+### Credenciais utilizadas
+
+```text
+Usuário: user
+Senha: user
+```
+
+### Resultado
+
+A autenticação foi realizada com sucesso no serviço FTP.
+
+### Evidência
+
+![Login FTP](images/04-ftp-login-sucesso.png)
+
+### Análise
+
+O serviço FTP permitiu autenticação utilizando credenciais simples e previsíveis. Esse comportamento representa um risco de segurança, pois aumenta a probabilidade de sucesso de ataques de força bruta e de adivinhação de senhas.
+---
 
 ---
 
