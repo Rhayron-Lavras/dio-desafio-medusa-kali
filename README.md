@@ -141,7 +141,7 @@ A ferramenta Medusa identificou com sucesso credenciais válidas para acesso ao 
 
 ### Evidência
 
-![Medusa](images/05-medusa-ftp-success)
+![Medusa](images/05-medusa-ftp-success.png)
 
 **Análise**
 
