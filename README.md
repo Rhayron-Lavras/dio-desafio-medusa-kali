@@ -54,8 +54,10 @@ A comunicação foi estabelecida com sucesso entre as duas máquinas.
 ### Análise
 
 O teste de conectividade confirmou que as máquinas Kali Linux e Metasploitable 2 estão na mesma rede Host-Only configurada no VirtualBox, permitindo a realização dos testes de segurança em ambiente controlado.
+
 ---
 
+<br>
 
 ## Enumeração de Serviços
 
